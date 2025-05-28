@@ -56,6 +56,11 @@ config.keys = {
     mods = 'CMD|SHIFT',
     action = action.ActivatePaneDirection 'Down',
   },
+  {
+    key = 'k',
+    mods = 'CMD',
+    action = action.ClearScrollback 'ScrollbackAndViewport',
+  },
 }
 
 return config
