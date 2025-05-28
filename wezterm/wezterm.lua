@@ -1,6 +1,7 @@
 local wezterm = require 'wezterm'
 local config = {}
 
+-- STYLING
 config.font = wezterm.font 'FiraCode Nerd Font'
 config.font_size = 13
 
@@ -17,5 +18,44 @@ config.window_frame = {
 
 config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
+
+-- KEY BINDING
+local action = wezterm.action
+
+config.keys = {
+  {
+    key = 'd',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.SplitPane {
+      direction = 'Right',
+      size = { Percent = 50 },
+    },
+  },
+  {
+    key = 'w',
+    mods = 'CMD|SHIFT',
+    action = action.CloseCurrentPane { confirm = true },
+  },
+  {
+    key = 'h',
+    mods = 'CMD|SHIFT',
+    action = action.ActivatePaneDirection 'Left',
+  },
+  {
+    key = 'l',
+    mods = 'CMD|SHIFT',
+    action = action.ActivatePaneDirection 'Right',
+  },
+  {
+    key = 'k',
+    mods = 'CMD|SHIFT',
+    action = action.ActivatePaneDirection 'Up',
+  },
+  {
+    key = 'j',
+    mods = 'CMD|SHIFT',
+    action = action.ActivatePaneDirection 'Down',
+  },
+}
 
 return config
