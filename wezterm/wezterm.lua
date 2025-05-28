@@ -4,10 +4,10 @@ local config = {}
 config.font = wezterm.font 'FiraCode Nerd Font'
 config.font_size = 13
 
-config.color_scheme = 'Monokai Soda'
+config.color_scheme = 'ayu'
 
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.85
+config.window_background_opacity = 0.9
 config.macos_window_background_blur = 50
 
 config.window_frame = {
