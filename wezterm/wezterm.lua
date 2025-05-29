@@ -23,6 +23,7 @@ config.hide_tab_bar_if_only_one_tab = true
 local action = wezterm.action
 
 config.keys = {
+  -- Split terminal
   {
     key = 'd',
     mods = 'CMD|SHIFT',
@@ -31,6 +32,15 @@ config.keys = {
       size = { Percent = 50 },
     },
   },
+  {
+    key = 's',
+    mods = 'CMD|SHIFT',
+    action = wezterm.action.SplitPane {
+      direction = 'Down',
+      size = { Percent = 50 },
+    },
+  },
+  -- Panels Navigation
   {
     key = 'w',
     mods = 'CMD|SHIFT',
@@ -56,6 +66,7 @@ config.keys = {
     mods = 'CMD|SHIFT',
     action = action.ActivatePaneDirection 'Down',
   },
+  -- Others
   {
     key = 'k',
     mods = 'CMD',
