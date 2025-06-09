@@ -5,3 +5,13 @@ deps = []
 use = "kmlupreti/ayu-dark"
 rev = "5f600aa"
 hash = "a05f94b9a20b64d814c7631074d65c4a"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "b3950bf"
+hash = "319ce574cdb2865baf4323db90456504"
+
+[[flavor.deps]]
+use = "dangooddd/kanagawa"
+rev = "31167ed"
+hash = "a04e157148549bacbb2831aab0e6e8cb"
