@@ -5,6 +5,13 @@ line-number = "relative"
 mouse = false
 undercurl = true
 end-of-line-diagnostics = "hint"
+gutters = ["diff", "diagnostics", "line-numbers", "spacer", "spacer"]
+
+[editor.statusline]
+left = ["mode", "version-control", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "file-type", "position"]
+
 
 [editor.cursor-shape]
 insert = "bar"
