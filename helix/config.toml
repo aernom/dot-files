@@ -12,6 +12,8 @@ left = ["mode", "version-control", "spinner"]
 center = ["file-name"]
 right = ["diagnostics", "selections", "file-type", "position"]
 
+[editor.indent-guides]
+render = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -22,7 +24,7 @@ select = "underline"
 hidden = false
 
 [editor.lsp]
-display-inlay-hints = false
+display-inlay-hints = true
 
 [editor.inline-diagnostics]
 cursor-line = "warning" # show warnings and errors on the cursorline inline
