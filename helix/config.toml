@@ -2,15 +2,17 @@ theme = "kyoto_night"
 
 [editor]
 line-number = "relative"
+color-modes = true
 mouse = false
 undercurl = true
 end-of-line-diagnostics = "hint"
 gutters = ["diff", "diagnostics", "line-numbers", "spacer", "spacer"]
 
 [editor.statusline]
-left = ["mode", "version-control", "spinner"]
-center = ["file-name"]
+left = ["mode", "separator", "version-control", "separator", "spinner"]
+center = ["file-name", "file-modification-indicator"]
 right = ["diagnostics", "selections", "file-type", "position"]
+separator = " "
 
 [editor.indent-guides]
 render = true

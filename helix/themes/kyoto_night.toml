@@ -84,7 +84,7 @@ hint = { fg = "hint" }
 "ui.statusline" = { bg = "bg-menu", fg = "fg-dark" }
 "ui.statusline.inactive" = { bg = "bg-menu", fg = "fg-gutter" }
 "ui.statusline.normal" = { bg = "blue", fg = "bg", modifiers = ["bold"] }
-"ui.statusline.insert" = { bg = "light-green", fg = "bg", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "yellow", fg = "bg", modifiers = ["bold"] }
 "ui.statusline.select" = { bg = "magenta", fg = "bg", modifiers = ["bold"] }
 "ui.text" = { fg = "fg" }
 "ui.text.focus" = { bg = "bg-focus" }
