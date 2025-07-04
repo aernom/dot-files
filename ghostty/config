@@ -1,0 +1,14 @@
+theme = tokyonight
+
+background-opacity = 0.85
+background-blur-radius = 50
+
+cursor-color = #ff9e64
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+font-family = FiraCode Nerd Font
+font-size = 13
+
+macos-titlebar-style = hidden
