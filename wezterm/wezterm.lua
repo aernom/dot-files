@@ -6,6 +6,9 @@ config.font = wezterm.font("FiraCode Nerd Font")
 config.font_size = 13
 
 config.color_scheme = "tokyonight_night"
+config.colors = {
+	cursor_bg = "#ff9e64",
+}
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.9
