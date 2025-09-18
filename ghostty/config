@@ -11,4 +11,4 @@ shell-integration-features = no-cursor
 font-family = FiraCode Nerd Font
 font-size = 13
 
-macos-titlebar-style = hidden
+macos-titlebar-style = transparent
