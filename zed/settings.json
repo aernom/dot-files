@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Catppuccin Frappé",
   "vim_mode": true,
   "edit_predictions": {
     "mode": "subtle",
@@ -20,11 +21,10 @@
     "dock": "right"
   },
   "features": {
-    "edit_prediction_provider": "zed",
-    "copilot": false
+    "edit_prediction_provider": "zed"
   },
   "base_keymap": "VSCode",
-  "theme": "Kyoto Night",
+  "theme": "Zedokai Darker",
   "soft_wrap": "editor_width",
   "ui_font_size": 14,
   "buffer_font_size": 13,
@@ -42,10 +42,9 @@
   },
   "terminal": { "dock": "right" },
   "agent": {
-    "version": "2",
     "enabled": false
+  },
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred"
   }
-  // "experimental.theme_overrides": {
-  //   "background.appearance": "blurred"
-  // }
 }

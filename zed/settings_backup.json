@@ -7,13 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "vim_mode": true,
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": false
+    "enabled_in_text_threads": false
   },
   "git_panel": {
     "dock": "right"
@@ -23,7 +24,7 @@
     "copilot": false
   },
   "base_keymap": "VSCode",
-  "theme": "Zedokai Darker (Filter Ristretto)",
+  "theme": "Catppuccin Espresso (Blur)",
   "soft_wrap": "editor_width",
   "ui_font_size": 14,
   "buffer_font_size": 13,
@@ -40,7 +41,7 @@
     "ss04": true
   },
   "terminal": { "dock": "right" },
-  "assistant": {
+  "agent": {
     "version": "2",
     "enabled": false
   }
