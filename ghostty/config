@@ -1,7 +1,8 @@
-theme = tokyonight
+theme = Catppuccin Mocha
 
-background-opacity = 0.85
-background-blur-radius = 50
+background-opacity = 0.9
+background-blur = true
+background-blur-radius = 40
 
 cursor-color = #ff9e64
 cursor-style = block
