@@ -24,7 +24,7 @@
     "edit_prediction_provider": "zed"
   },
   "base_keymap": "VSCode",
-  "theme": "Zedokai Darker",
+  "theme": "Catppuccin Macchiato",
   "soft_wrap": "editor_width",
   "ui_font_size": 14,
   "buffer_font_size": 13,
