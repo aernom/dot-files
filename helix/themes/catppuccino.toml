@@ -1,2 +1,5 @@
 inherits = "catppuccin_macchiato"
 "ui.background" = {}
+# "ui.statusline.normal" = { fg = "black", bg = "blue" }
+# "ui.statusline.insert" = { fg = "black", bg = "orange" }
+# "ui.statusline.select" = { fg = "black", bg = "magenta" }
